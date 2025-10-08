@@ -8,7 +8,7 @@
             font-family: 'Heebo', Arial, sans-serif;
             background: linear-gradient(135deg, #F8FAFC 0%, #E0F2FE 100%);
             min-height: 100vh;
-            color: #1E3A5F;
+            color: #094062;
             line-height: 1.6;
         }
 
@@ -26,7 +26,7 @@
         .navbar-brand {
             font-size: 1.8rem;
             font-weight: 700;
-            color: #020381 !important;
+            color: #094062 !important;
             text-shadow: 2px 2px 4px rgba(6, 147, 227, 0.2);
         }
 
@@ -40,12 +40,12 @@
         }
 
         .navbar-nav .nav-link:hover {
-            color: #020381 !important;
+            color: #094062 !important;
             transform: translateY(-2px);
         }
 
         .navbar-nav .nav-link.active {
-            color: #020381 !important;
+            color: #094062 !important;
         }
 
         .navbar-nav .nav-link::after {
@@ -55,7 +55,7 @@
             height: 2px;
             bottom: -5px;
             right: 50%;
-            background: #020381;
+            background: #094062;
             transition: all 0.3s ease;
         }
 
@@ -105,7 +105,7 @@
         }
 
         .custom-toggler:hover .hamburger-line {
-            background-color: #020381;
+            background-color: #094062;
         }
 
         /* Hero Section */
@@ -231,15 +231,15 @@
 
         /* Primary Phone Button */
         .hero-phone.primary {
-            background: linear-gradient(45deg, #020381, #2874FC);
+            background: #094062;
             animation-delay: 0.4s;
         }
 
         /* Secondary Phone Button */
         .hero-phone.secondary {
             background: linear-gradient(45deg, #FFFFFF, #F8FAFC);
-            border: 2px solid #0693e3;
-            color: #0693e3;
+            border: 2px solid #094062;
+            color: #094062;
             animation-delay: 0.6s;
         }
 
@@ -251,8 +251,7 @@
         }
 
         .hero-phone.secondary:hover {
-            background: linear-gradient(45deg, #020381, #2874FC);
-            border-color: #2874FC;
+            background: #094062;
             color: white;
         }
 
@@ -285,7 +284,7 @@
         .service-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 40px rgba(6, 147, 227, 0.3);
-            border-color: #0693e3;
+            border-color: #094062;
         }
 
         .service-icon {
@@ -327,7 +326,7 @@
             right: 0;
             width: 5px;
             height: 100%;
-            background: linear-gradient(135deg, #020381, #2874FC);
+            
         }
 
         .content-section p {
@@ -339,16 +338,12 @@
         }
 
         .content-section.highlight {
-            background: linear-gradient(135deg, #020381 0%, #2874FC 100%);
+            background:  #094062;
             color: white;
         }
 
         .content-section.highlight p {
             color: white;
-        }
-
-        .content-section.highlight::before {
-            background: rgba(255, 255, 255, 0.3);
         }
 
         /* CTA Section */
@@ -401,14 +396,14 @@
 
         /* Primary CTA Button */
         .cta-phone.primary {
-            background: linear-gradient(45deg, #020381, #2874FC);
+            background:  #094062;
         }
 
         /* Secondary CTA Button */
         .cta-phone.secondary {
             background: linear-gradient(45deg, #FFFFFF, #F8FAFC);
-            border: 2px solid #0693e3;
-            color: #0693e3;
+            border: 2px solid #094062;
+            color: #094062;
         }
 
         .cta-phone:hover {
@@ -419,8 +414,7 @@
         }
 
         .cta-phone.secondary:hover {
-            background: linear-gradient(45deg, #020381, #2874FC);
-            border-color: #2874FC;
+            background: #094062;
             color: white;
         }
 
